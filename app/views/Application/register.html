@@ -1,0 +1,30 @@
+extends 'main.html'
+#{set title:'Home' /}
+
+<div id="Register">
+
+    Login
+
+    (try with Usuari1/pwd)
+
+    #{form @Register(), id:'formRegister'}
+    <p class="field">
+        <label>Register Name:</label>
+        <input type="text" name="fullname" size="19" value="${flash.username}" />
+    </p>
+    <p class="field">
+        <label>Password:</label>
+        <input type="password" name="password" size="19"/>
+    </p>
+    <p class="buttons">
+        <input type="submit" value="Registre" />
+    </p>
+    #{/form}
+
+</div>
+<p>
+    <a href="@{accioLogin()}">Login</a>
+</p>
+<script type="text/javascript" charset="${_response_encoding}">
+    sessvars.$.clearMem()
+</script>
