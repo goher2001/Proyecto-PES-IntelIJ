@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37a528d0-3527-404f-910d-76db9386ef4c" name="Changes" comment="Calendaris + sessions">
+      <change beforePath="$PROJECT_DIR$/app/controllers/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Application/principal.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Application/principal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proyecto.iws" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/proyecto.ipr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gestioHospitals/gestioHospitals.ipr" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -54,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640718008853</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Calendaris + sessions">
+      <created>1640718716503</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640718716503</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">

@@ -156,5 +156,9 @@ public class Application extends Controller {
         }
         renderText("Usuari no existeix");
     }
+    public static void tancarSessio(){
+        session.clear();
+        renderTemplate("Application/index.html");
+    }
 
 }
