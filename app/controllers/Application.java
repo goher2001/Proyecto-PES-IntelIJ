@@ -55,6 +55,7 @@ public class Application extends Controller {
     public static void december(){
         renderTemplate("Application/December.html");
     }
+    public static void deleteuser() {renderTemplate("Application/DeleteUser.html");}
 
     public static void login(String fullname, String password){
         User us = User.find("byFullnameAndPassword", fullname, password).first();
@@ -153,6 +154,7 @@ public class Application extends Controller {
             }
             u.delete();
             renderText(fullname + " donat de baixa");
+            renderTemplate("Application/index.html");
         }
         renderText("Usuari no existeix");
     }

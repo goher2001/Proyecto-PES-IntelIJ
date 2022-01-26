@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+body{
+    margin:0;
+    padding:0;
+    background: #000;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.principal a{
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.principal a:hover{
+    color: #fff;
+}
+.principal h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+.principal table, p, td {
+            width:100%;
+            table-layout:fixed;
+            text-align:center;
+            font-size:30px;
+            border-collapse:collapse;
+            border:1px solid skyblue;
+}
+</style>
 <head>
     <meta charset="UTF-8">
     <title>Home Page</title>
 </head>
 <body>
-WELCOME TO WEBCALENDAR 2022™
+<div class="principal">
+    <h1>WELCOME TO WEBCALENDAR 2022™</h1>
+<td>
 <p>
     <a href="@{january()}">January</a>
 </p>
@@ -21,6 +57,8 @@ WELCOME TO WEBCALENDAR 2022™
 <p>
     <a href="@{may()}">May</a>
 </p>
+</td>
+<td>
 <p>
     <a href="@{june()}">June</a>
 </p>
@@ -39,9 +77,12 @@ WELCOME TO WEBCALENDAR 2022™
 <p>
     <a href="@{november()}">November</a>
 </p>
+
 <p>
     <a href="@{december()}">December</a>
 </p>
+</td>
+    <td>
 <p>
     <a href="@{mycalendars()}">My Calendars</a>
 </p>
@@ -51,6 +92,8 @@ WELCOME TO WEBCALENDAR 2022™
 <p>
     <a href="@{tancarSessio()}">Log out</a>
 </p>
+    </td>
+
 </div>
 </body>
 </html>
